@@ -1,5 +1,5 @@
 const server = require('express')();
-const filippo  = require('./index');
+const filippo  = require('./api');
 
 server.get('/', 
     async (req, res) => {
